@@ -2,12 +2,10 @@ using UnityEngine;
 
 public class Apple : MonoBehaviour
 {
-	private Rigidbody2D rb;
 	private int lifetime = 3;
 	
 	private void Awake()
 	{
-		rb = GetComponent<Rigidbody2D>();
 	}
 
 	private void Start()
