@@ -17,7 +17,7 @@ public class Alert : MonoBehaviour
     {
         if (this.doublePoints == true)
         {
-            alert.text = "Double Points";
+            alert.text = "DOUBLE POINTS";
         }
         else
         {
