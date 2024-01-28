@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ObstacleHor : MonoBehaviour
 {
@@ -21,5 +22,5 @@ public class ObstacleHor : MonoBehaviour
 		}
 
 		this.transform.position = new Vector3(Mathf.Round(this.transform.position.x)+direction.x, Mathf.Round(this.transform.position.y)+this.direction.y, 0.0f);
-	}	
+	}
 }
