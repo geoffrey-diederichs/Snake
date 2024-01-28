@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     private int value = -3;
-    Text score;
+    public Text score;
 
     void Start()
     {
@@ -19,5 +19,10 @@ public class Score : MonoBehaviour
     public void UpdateScore(int inc)
     {
         this.value += inc;
+    }
+
+    void OnDisable()
+    {
+    	PlayerPrefs.SetInt("score", value);
     }
 }

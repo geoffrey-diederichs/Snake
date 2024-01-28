@@ -103,7 +103,7 @@ public class Snake : MonoBehaviour
 			{
 				Destroy(snakeTail[i].gameObject);
 			}
-			SceneManager.LoadScene("Menu");
+			SceneManager.LoadScene("Score");
 		}
 	}
 }
